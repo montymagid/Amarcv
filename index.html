@@ -350,12 +350,12 @@
             </div>
 
             <div class="buttons">
-                <a href="#" class="btn btn-cv" id="downloadCV">
-                    <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <!-- <a href="#" class="btn btn-cv" id="downloadCV">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                         <path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/>
-                    </svg> -->
+                    </svg>
                     <span>Download My CV</span>
-                </a>
+                </a> -->
          
                 <a href="#" class="btn btn-email" id="emailBtn">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
@@ -393,8 +393,8 @@
         document.getElementById('profileImg').src = userData.profileImage;
 
         // Download CV button
-        document.getElementById('downloadCV').href = userData.cvUrl;
-        document.getElementById('downloadCV').download = 'CV.pdf';
+        // document.getElementById('downloadCV').href = userData.cvUrl;
+        // document.getElementById('downloadCV').download = 'CV.pdf';
 
         // Email button
         document.getElementById('emailBtn').href = `mailto:${userData.email}`;
